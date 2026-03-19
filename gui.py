@@ -19,7 +19,7 @@ class MainWindow:
         self.extractor = ArchiveExtractor()
 
         self.root = TkinterDnD.Tk()  # 使用支持拖拽的Tk
-        self.root.title("7z 密码管理器")
+        self.root.title("7z 密码管理器 v1.0 | 开发者: fushigi823")
         self.root.geometry("550x450")
         self.root.minsize(400, 350)
 
